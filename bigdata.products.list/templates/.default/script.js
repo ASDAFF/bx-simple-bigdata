@@ -70,7 +70,7 @@ function getProducts(ids){
 
 $(document).ready(function(){
 
-    //Сопроводить все ссылки на детальную кароточку классом "bx_rcm_view_link" и атрибутом data-product-id в котором лежит значение ID элемента
+    //РЎРѕРїСЂРѕРІРѕРґРёС‚СЊ РІСЃРµ СЃСЃС‹Р»РєРё РЅР° РґРµС‚Р°Р»СЊРЅСѓСЋ РєР°СЂРѕС‚РѕС‡РєСѓ РєР»Р°СЃСЃРѕРј "bx_rcm_view_link" Рё Р°С‚СЂРёР±СѓС‚РѕРј data-product-id РІ РєРѕС‚РѕСЂРѕРј Р»РµР¶РёС‚ Р·РЅР°С‡РµРЅРёРµ ID СЌР»РµРјРµРЅС‚Р°
     $(document).on('click', ".bigdata-recommended ." + bigData.detailPageUrlRecommendedClass, function(event){
         event.preventDefault();
 
@@ -82,7 +82,7 @@ $(document).ready(function(){
         location.href = _this.attr('href');
     });
 
-    //класс с добавлением в корзину (сопроводить атрибутом data-product-id)
+    //РєР»Р°СЃСЃ СЃ РґРѕР±Р°РІР»РµРЅРёРµРј РІ РєРѕСЂР·РёРЅСѓ (СЃРѕРїСЂРѕРІРѕРґРёС‚СЊ Р°С‚СЂРёР±СѓС‚РѕРј data-product-id)
     $(document).on('click',".bigdata-recommended ." + bigData.addaddToCartActionClass, function(e){
         e.preventDefault();
 

@@ -1,3 +1,3 @@
 <?
-$MESS ['SH_IBLOCK_MODULE_NOT_INSTALLED'] = "Модуль инфоблоков не установлен";
+$MESS ['SH_IBLOCK_MODULE_NOT_INSTALLED'] = "РњРѕРґСѓР»СЊ РёРЅС„РѕР±Р»РѕРєРѕРІ РЅРµ СѓСЃС‚Р°РЅРѕРІР»РµРЅ";
 ?>
