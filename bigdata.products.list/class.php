@@ -186,7 +186,7 @@ class BigDataSimpleComponent extends CBitrixComponent{
 		}
 
 		if ($this->arParams['IBLOCK_ID'])
-			$a['ib'] = $this->arParams['IBLOCK_ID'];
+			$data['ib'] = $this->arParams['IBLOCK_ID'];
 
 		foreach($data as $key => $val){
 			$this->dataToRequest[$key] = $val;
